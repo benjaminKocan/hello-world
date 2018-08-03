@@ -1,10 +1,23 @@
 package model;
 
-
 public class Database {
-	public int oneValue = 1;
-	public int twoValue = 2;
-	public String StringValue = "String";
-	
+	public int mouseXValue;
+	public int mouseYValue;
+
+	public int getXValue() {
+		return mouseXValue;
+	}
+
+	public int getYValue() {
+		return mouseYValue;
+	}
+
+	public void setXValue(int newX) {
+		mouseXValue = newX;
+	}
+
+	public void setYValue(int newY) {
+		mouseYValue = newY;
+	}
 
 }
